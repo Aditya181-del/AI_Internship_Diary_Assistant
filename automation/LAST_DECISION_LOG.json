@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-01-28T09:55:39",
+  "generation_date": "2026-01-28",
+  "internship_start_date": "2026-02-02",
+  "day_type": "ROUTINE_DAY",
+  "input_mode": "text",
+  "company_name": "Dyashin Technosoft Pvt. Ltd.",
+  "company_mention_policy": "Mandatory on first day, contextual on routine days",
+  "work_summary_rules": {
+    "tone": "Formal academic",
+    "person": "First person",
+    "word_limit": "80\u2013120",
+    "content": "Tasks and exposure only"
+  },
+  "learning_outcome_rules": {
+    "tone": "Formal academic",
+    "person": "First person",
+    "word_limit": "50\u201380",
+    "content": "Skills and understanding only"
+  },
+  "ai_model": "mistral (ollama, local)",
+  "human_in_the_loop": {
+    "auto_fill_approved": true,
+    "manual_submission_required": true
+  }
+}
