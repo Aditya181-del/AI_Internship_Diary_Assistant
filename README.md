@@ -25,7 +25,7 @@ AI-assisted content generation and browser automation.
 - Windows 10/11
 - Python 3.13+
 - Ollama installed and running
-- Internet access for VTU portal
+- Internet access for specific portal
 
 ## How to Run
 
@@ -39,3 +39,4 @@ AI-assisted content generation and browser automation.
 - This project is distributed as a portable Python application
 to ensure stability on Python 3.13.
 - EXE bundling was intentionally avoided due to current ecosystem limitations.
+
