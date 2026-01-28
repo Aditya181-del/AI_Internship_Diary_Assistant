@@ -1,8 +1,11 @@
 # AI Internship Diary Assistant
 
-A desktop GUI assistant that helps automate **VTU Internship Diary**
-management using AI-assisted content generation, browser automation,
+A desktop GUI assistant that helps automate **internship diary management**
+using AI-assisted content generation, browser automation,
 and reminder notifications — while preserving **human approval and control**.
+
+The current implementation is configured for the **VTU InternYet portal**,
+serving as a concrete, real-world use case of the system.
 
 This is a real, daily-use assistant designed around academic integrity,
 system reliability, and real-world constraints.
@@ -11,14 +14,16 @@ system reliability, and real-world constraints.
 
 ## Overview
 
-The assistant helps a VTU B.E. student to:
+The assistant helps a B.E. student to:
 
 - Generate meaningful daily internship diary entries using local AI
 - Track internship progress locally
 - Receive reminders to fill the diary
-- Assist (not blindly automate) VTU InternYet portal submissions
+- Assist (not blindly automate) internship portal submissions
 
-The system intentionally follows a **human-in-the-loop** design:
+The automation layer is **currently integrated with the VTU InternYet portal**,
+while the overall system design follows a **human-in-the-loop** approach:
+
 AI suggests → user reviews → user submits.
 
 ---
@@ -28,7 +33,7 @@ AI suggests → user reviews → user submits.
 - 🖥️ Tkinter-based desktop GUI
 - ✍️ AI-generated work summaries & learning outcomes
 - 🧠 Explainable AI decision logging
-- 🌐 Automated VTU InternYet portal filling (Playwright)
+- 🌐 Internship portal automation (currently VTU InternYet via Playwright)
 - ⏰ Reminder assistant (Email + WhatsApp)
 - 📊 Local SQLite storage for progress tracking
 - 🛑 Graceful fallback to full manual control
@@ -67,7 +72,7 @@ All reminder features are **optional** and configurable via environment variable
 - Windows 10 / 11
 - Python 3.13+
 - Ollama installed and running locally
-- Internet access (for VTU InternYet portal & notifications)
+- Internet access (for internship portal & notifications)
 
 ---
 
@@ -82,4 +87,3 @@ All reminder features are **optional** and configurable via environment variable
 
 The GUI will launch automatically.
 
----
