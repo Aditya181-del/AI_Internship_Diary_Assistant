@@ -87,3 +87,8 @@ All reminder features are **optional** and configurable via environment variable
 
 The GUI will launch automatically.
 
+Results - 
+<img width="1166" height="1104" alt="image" src="https://github.com/user-attachments/assets/b50221bc-2b85-4b68-9034-0adfaaf655eb" /> 
+<img width="1386" height="952" alt="image" src="https://github.com/user-attachments/assets/a9c6b4e9-9a8e-493d-888e-eeafd9357c22" />
+
+
